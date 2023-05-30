@@ -455,13 +455,15 @@ function toNaryString(num, n) {
  *   ['/web/assets/style.css', '/.bin/mocha',  '/read.me'] => '/'
  *   ['/web/favicon.ico', '/web-scripts/dump', '/verbalizer/logs'] => '/'
  */
-function getCommonDirectoryPath(pathes) {
-  const arrArray = [];
-  let result = '';
-  for (let i = 0; i < pathes.length; i += 1) {
-    arrArray[i] = pathes[i].split('/');
-  }
-  return result;
+function getCommonDirectoryPath(/* pathes */) {
+  throw new Error('Not implemented');
+  // const arrArray = [];
+  // let result = '';
+  // for (let i = 0; i < pathes.length; i += 1) {
+  //   arrArray[i] = pathes[i].split('/');
+  // }
+  // for (let j = 0; j < arrArray.Length)
+  // return result;
 }
 
 
